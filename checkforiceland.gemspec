@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = "0.0.0"
   s.date        = "2011-10-16"
   s.summary     = "Check for Iceland"
-  s.description = ""
+  s.description = "Uses a DNS service, provided by RIX, to check if an IP address is Icelandic"
   s.authors     = ["Anton Smári Gunnarsson", "Birkir Guðjónsson", "Gabríel A. Pétursson", "Gunnar Guðvarðarson"]
   s.email       = "gabriel@system.is"
   s.files       = ["lib/checkforiceland.rb"]
