@@ -1,3 +1,6 @@
+require 'socket'
+require 'ipaddr'
+
 class CheckForIceland
   def is_icelandic?(address)
     address = IPAddr.new(address) unless address.class == IPAddr
